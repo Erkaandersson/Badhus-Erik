@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En hemsida för Tucaryds kommun simhall. Information om simskola, priser och öppetider.">
+    <meta name="author" content="Erik Andersson">
+    <title>Tucaryds simhall</title>
+    <!--Använder meta taggar för att göra min hemsida bättre för SEO, Titel för vilken sida man är på-->
+    <link rel="stylesheet" href="style.css">   
+    <!--Länkar stylesheet-->
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+            <img class="logo" src="bilder/Logo.png" alt="logo">
+            <a href="/index.html"><img class="portfolio-logo" src="/bilder/logo-portfolio.png" alt="logo"></a>
+        </header>
+
+        <nav> <!-- Använder nav för menyn, semantiskt. -->
+            <ul>
+                <li>
+                    <a class="active" href="index.html">Startsida</a>
+                    <a href="simskola.html">Simskola</a>
+                    <a href="gym_relax.html">Gym & Relax</a>
+                    <a href="priser.html">Priser & Öppetider</a>
+                </li>
+            </ul>   
+        </nav>
+
+        <section class="rubrik-startsida">
+            <h1 class="text-välkommen">Välkommen till Tucaryd Simhall!</h1>
+        </section>
+
+        <section class="container"> <!--Section container för flex, placera boxes snyggt. -->
+                <section class="startsida-simskola">
+                    <h2>Redo för plask?</h2>
+                    <p>Vill du anmäla dig eller ditt barn till simskola? Eller är du sugen på crawlkurs?
+                    </p>
+                    <p>Klicka <a href="simskola.html">här</a>!</p>
+                </section>
+                <section class="kontakt-link">
+                    <h2>Kontakta oss?</h2>
+                    <p>För frågor kontakta oss <a href="#footer-link">här</a>!</p>
+                </section>
+                <section class="startsida-priser-öppetider">
+                    <h2>Frågor om priser & öppetider?</h2>
+                    <p>Klicka <a href="priser.html">här</a>!</p>
+                </section>
+        </section>
+
+        <section class="info-startsida">
+            <h2>När du kommer hit</h2>
+            <h3>I receptionen</h3>
+            <p>Här kan du betala både med kort och kontanter.</p>
+            <h3>Barnvagnar, skor & andra ägodelar</h3>
+            <p>Barnvagnar kan du lämna i låst lokal vid entrén.
+            <br>
+            Badet har skogräns. Det finns hyllor för skor när du har passerat badkassan.</p>
+            <h3>Omklädningsrum</h3>
+            <p>Omklädningsrum finns för herr och dam.</p>
+            <h3>Skåp & förvaring</h3>
+            <p>Till våra klädskåp behöver du hänglås, ta med eget eller köp i receptionen. Ute i simhallen finns värdefack som du låser med eget hänglås.</p>
+            <h3>Duscha innan badet</h3>
+            <p>Innan bad ska du tvätta hår och kropp utan badkläder.</p>
+            <h3>Toaletter & skötbord</h3>
+            <p>Toaletter finns i båda omklädningrum i anslutning till simhall. Skötbord finns i damernas omklädningsrum.</p>
+            <h3>Mat & Dryck</h3>
+            <p>Det går bra att ha med egen matsäck som du kan äta vid borden som finns i simhallen. Tänk på att inte ta med förpackningar av glas</p>
+            <h3>Åldersgräns</h3>
+            <p>Observera att vi har en åldersgräns på 12 år.  Icke simkunniga och barn under 12 år ska vara i simkunnig badande vuxens sällskap (minst 18 år). Barn mellan 9-12 år har möjlighet att göra ett simkunnighetstest för att få ett grönt kort som visar att de får bada utan vuxens sällskap. För mer information, kontakta badpersonalen eller läs mer under grönt kort längre ner på sidan.</p>
+        </section>
+
+        <section class="info-SSL">
+            <img class="img-SSL" src="bilder/logo-SSL.png" alt="logo-SSL">
+            <h2>En vattensäker kommun</h2> 
+            <p>Som kommun och certifierad enligt Svenska Livräddningssällskapets sex kriterier för ”En Vattensäker Kommun” får du enkelt tillgång till den kunskap du och din kommun behöver för att öka vattensäkerheten. Kommun visar också genom att ansluta sig till certifieringen att man tycker det är viktigt med vattensäkerhet och att man arbetar för att bli en tryggare och säkrare kommun.</p>
+            <p>Svenska Livräddningssällskapet uppmanar alla att besöka deras sida för att ta reda på mer om säkerhet i och kring vatten!
+            Följ länken för att läsa mer.
+            <a href="https://svenskalivraddningssallskapet.se/en-vattensaker-kommun/">https://svenskalivraddningssallskapet.se/en-vattensaker-kommun/</a></p>
+        </section>
+
+        <footer>
+            <h1>Tucaryd Simhall</h1>
+            <hr>
+            <h2 id="footer-link">Kontakta oss</h2>
+            <p>Adress: Sportgatan 1, 133 70 Tucaryd</p>
+            <p>Mail: <a href="mailto:tucaryd.simhall@gmail.com">tucaryd.simhall@gmail.com</a></p>
+            <p>Telefon: <a href="tel:+4733378901">073 33 78 901</a></p>
+            <p>Hitta hit:
+            </p>
+            <!-- Iframe för att länka till en pin på google maps. -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5973.424852542475!2d14.986884110081533!3d58.03990342984897!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a27dfc0000001%3A0x54667d8dbeff3ab2!2sTUC%20Sweden%20AB!5e0!3m2!1ssv!2sse!4v1698319877230!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <img class="logo-footer" src="bilder/Logo.png" alt="logo">
+        </footer>
+
+    </main>
+    
+</body>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En hemsida för Tucaryds kommun simhall. Information om simskola, priser och öppetider.">
+    <meta name="author" content="Erik Andersson">
+    <title>Tucaryds simhall-simskola</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+            <img class="logo" src="bilder/Logo.png" alt="logo">
+        </header>
+
+        <nav> <!-- Använder nav för menyn, semantiskt. -->
+            <ul>
+                <li>
+                    <a href="startsida.html">Startsida</a>
+                    <a href="simskola.html">Simskola</a>
+                    <a class="active"  href="gym_relax.html">Gym & Relax</a>
+                    <a href="priser.html">Priser & Öppetider</a>
+                </li>
+            </ul>   
+        </nav>
+
+        <section class="grupptraning-sida">
+            <div>
+                <h1>Vårat utbud av gruppträning:</h1>
+                <h2>Cykling</h2>
+                <p>Träning på inomhuscykel i grupp tillsammans med en instruktör. Cykel är en effektiv och skonsam konditionsform som passar alla. Du kan anpassa klassen utefter din egna förmåga och nivå. </p>
+                <h2>Bodypump</h2>
+                <p>BODYPUMP™ är en klass som fokuserar på uthållig styrka. Här jobbar du med skivstång och viktplattor. Du tränar upp styrka och uthållighet i hela kroppen på ett enkelt och roligt sätt till musik. Med fokus på låg belastning och högt antal repetitioner går vi igenom Ben, Bröst, Rygg, Axlar, Biceps, Triceps, Mage. Liksom alla Les Mills program, släpps var tredje månad ny musik och koreografi.</p>
+                <h2>Crosscage</h2>
+                <p>Ett stationsbaserat pass i liten grupp som ökar din styrka, kondition och explosivitet. Ett häftigt allroundpass med olika funktionella övningar för dig som vill träna hela kroppen. Passet är intervallbaserat och varierar från gång till gång för att utmana dig maximalt. Klassen utförs på CrossCage-ytan som finns ute i gymmet.</p>
+                <h2>Boxing</h2>
+                <p>En träningsklass som är inspirerad av boxning och annan kampsport. Du utmanar kondition, smidighet och styrka genom att träna olika sparkar och slag blandat med styrkeövningar. Vi använder oss av handskar och mitsar.</p>
+                <h2>Hiit</h2>
+                <p>HIIT är högintensiv träning för ökad kondition, muskeltillväxt och fettförbränning. Du jobbar under korta tidsintervaller där du maximerar ansträngningen.</p>
+                <h2>Pilates</h2>
+                <p>I Pilates fokuserar vi på korrekt form, kroppsplacering, andning, och strävar efter jämnvikt i muskulaturen. Pilates stärker speciellt musklerna i bålen (rygg, mage, sidor, bäckenbottsmuskler) och sätet - alla djupa, stabiliserande muskler som håller uppe kroppen. De muskler som vi behöver i vår vardag stretchas och stärks för att du ska få en välmående kropp. Passar både nybörjare och vana deltagare.</p>
+            </div>
+
+            <div class="wrapper"> <!-- Ett formulär för att anmäla sig till gruppträningspass -->
+                <form action="">
+                    <h2 id="formulär">Anmäl dig till pass</h2>
+                    <p>Ange vilket pass.</p>
+    
+                    <div class="input-box">
+                        <div class="input-field">
+                            <i class='bx bxs-user' ></i><input type="text" placeholder="Förnamn" required>
+                        </div>
+                        <div class="input-field">
+                            <i class='bx bxs-user' ></i>
+                            <input type="text" placeholder="Efternamn" required>    
+                        </div>
+                        <div class="input-field">
+                            <i class='bx bx-dumbbell'></i>
+                            <input type="text" placeholder="Ange pass" required>  
+                        </div>
+                        <div class="input-field">
+                            <i class='bx bxs-phone'></i>
+                            <input type="number" placeholder="Mobilnummer" required>   
+                        </div>
+                    </div>
+                    <button type="submit" class="btn">Anmälan</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="gym-footer">
+            <h1>Tucaryd Simhall</h1>
+            <hr>
+            <h2 id="footer-link">Kontakta oss</h2>
+            <p>Adress: Sportgatan 1, 133 70 Tucaryd</p>
+            <p>Mail: <a href="mailto:tucaryd.simhall@gmail.com">tucaryd.simhall@gmail.com</a></p>
+            <p>Telefon: <a href="tel:+4733378901">073 33 78 901</a></p>
+            <p>Hitta hit:
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5973.424852542475!2d14.986884110081533!3d58.03990342984897!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a27dfc0000001%3A0x54667d8dbeff3ab2!2sTUC%20Sweden%20AB!5e0!3m2!1ssv!2sse!4v1698319877230!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <img class="logo-footer" src="bilder/Logo.png" alt="logo">
+        </footer>
+        
+    </main>
+    
+</body>

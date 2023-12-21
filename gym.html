@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En hemsida för Tucaryds kommun simhall. Information om simskola, priser och öppetider.">
+    <meta name="author" content="Erik Andersson">
+    <title>Tucaryds simhall-simskola</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+            <img class="logo" src="bilder/Logo.png" alt="logo">
+        </header>
+
+        <nav> <!-- Använder nav för menyn, semantiskt. -->
+            <ul>
+                <li>
+                    <a href="startsida.html">Startsida</a>
+                    <a href="simskola.html">Simskola</a>
+                    <a class="active"  href="gym_relax.html">Gym & Relax</a>
+                    <a href="priser.html">Priser & Öppetider</a>
+                </li>
+            </ul>   
+        </nav>
+
+        <section class="gym-sida">
+            <div>
+                <h2>Vill du bli starkare och både jobba på din fysiska och mentala hälsa? </h2>
+                <p>Kom och träna hos oss! Vi erbjuder ett brett sortiment där alla kan känna sig välkomna. Vare sig du vill träna i maskin eller kanske med fria vikter så finns lösningen hos oss, Välkommen!
+                <h2>Träna med säkerhet och effektivitet</h2>
+                <p>Hos oss hittar du alltid instruktörer ute i lokalen som ger råd och tips kring hur du kan träna styrketräning på gym. Vi visar hur övningar kan genomföras för att undvika skador och berättar hur du kan undvika vanliga fel i din träning, allt för att du ska få ut maximalt av din träning, nå dina mål och bygga muskler. Lycka till med din styrketräning!</p>
+            </div>
+
+            <div class="wrapper"> <!-- Ett formulär för att ansöka om gymmedlemskap -->
+                <form action="">
+                    <h2 id="medlem-formulär">Ansökan till medlemskap</h2>
+                    <p>Ange vilket slags medlemskap (all in, gym med pass, endast gym)</p>
+    
+                    <div class="input-box">
+                        <div class="input-field">
+                            <i class='bx bxs-user' ></i><input type="text" placeholder="Förnamn" required>
+                        </div>
+                        <div class="input-field">
+                            <i class='bx bxs-user' ></i>
+                            <input type="text" placeholder="Efternamn" required>
+                            
+                        </div>
+                        <div class="input-field">
+                            <i class='bx bx-dumbbell'></i>
+                            <input type="text" placeholder="Medlemskap" required>
+                            
+                        </div>
+                        <div class="input-field">
+                            <i class='bx bxs-envelope'></i>
+                            <input type="email" placeholder="Email" required>
+                            
+                        </div>
+                        <div class="input-field">
+                            <i class='bx bxs-phone'></i>
+                            <input type="number" placeholder="Mobilnummer" required>
+                            
+                        </div>
+                    </div>
+    
+                    <button type="submit" class="btn">Anmälan</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="gym-footer">
+            <h1>Tucaryd Simhall</h1>
+            <hr>
+            <h2 id="footer-link">Kontakta oss</h2>
+            <p>Adress: Sportgatan 1, 133 70 Tucaryd</p>
+            <p>Mail: <a href="mailto:tucaryd.simhall@gmail.com">tucaryd.simhall@gmail.com</a></p>
+            <p>Telefon: <a href="tel:+4733378901">073 33 78 901</a></p>
+            <p>Hitta hit:
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5973.424852542475!2d14.986884110081533!3d58.03990342984897!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a27dfc0000001%3A0x54667d8dbeff3ab2!2sTUC%20Sweden%20AB!5e0!3m2!1ssv!2sse!4v1698319877230!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <img class="logo-footer" src="bilder/Logo.png" alt="logo">
+        </footer>
+
+    </main>
+    
+</body>

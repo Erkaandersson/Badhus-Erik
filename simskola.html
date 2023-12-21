@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En hemsida för Tucaryds kommun simhall. Information om simskola, priser och öppetider.">
+    <meta name="author" content="Erik Andersson">
+    <title>Tucaryds simhall-simskola</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <main>
+        <header>
+            <img class="logo" src="bilder/Logo.png" alt="logo">
+        </header>
+        <nav> <!-- Använder nav för menyn, semantiskt. -->
+            <ul>
+                <li>
+                    <a href="startsida.html">Startsida</a>
+                    <a class="active"  href="simskola.html">Simskola</a>
+                    <a href="gym_relax.html">Gym & Relax</a>
+                    <a href="priser.html">Priser & Öppetider</a>
+                </li>
+            </ul>   
+        </nav>
+        <section class="columns"> <!-- Använder section columns för flex. -->
+            <div>
+                <img id="crawl-pic" src="bilder/crawl.jpg" alt="Crawl">
+                <h2 id="crawl-left">Crawlkurs</h2>
+                <p>Hos oss är alla välkomna! Är du en motionssimmare som bara vill förbättra tekniken eller en nybörjare som bara vill lära dig grunderna? Eller är du kanske någon som tränar inför ett triathlon? </p>
+                <p>Simning som träning kan ses som underskattat men det finns många fördelar. Det är en skonsam träning för kroppen men samtidigt väldigt effektiv för muskler och kondition. </p>
+                <p>Anmäl dig <a href="#formulär">här</a>!  </p>
+                
+            </div>
+            <div>
+                <img id="babysim-pic" src="bilder/dad-teaching-his-daughter-swimming-swimming-pool.jpg" alt="Babysim">
+                <h2 id="babysim-right">Babysim</h2>
+                <p>Babysim är starten på ett livslångt vattenäventyr där barn och föräldrar tillsammans utforskar vattnets egenskaper och möjligheter. Tiden i vattnet sker alltid under barnets villkor, där vattenvana och vattensäkerhet är i fokus. 
+                </p>
+                <p>Låter det som något för dig och ditt barn? Anmäl er <a href="#formulär">här</a>!</p>    
+            </div>
+        </section>
+
+        <section class="kontakt-sida">
+            <div class="wrapper"> <!-- Ett anmälningsformulär till simskola. -->
+                <form action="">
+                    <h2 id="formulär">Anmälning till simskola och kurs</h2>
+                    <div class="input-box">
+                        <div class="input-field">
+                            <i class='bx bxs-user' ></i><input type="text" placeholder="Förnamn" required>
+                        </div>
+                        <div class="input-field">
+                            <i class='bx bxs-user' ></i>
+                            <input type="text" placeholder="Efternamn" required>   
+                        </div>
+                        <div class="input-field">
+                            <i class='bx bx-swim'></i>
+                            <input type="text" placeholder="Kurs" required>   
+                        </div>
+                        <div class="input-field">
+                            <i class='bx bxs-envelope'></i>
+                            <input type="email" placeholder="Email" required>   
+                        </div>
+                        <div class="input-field">
+                            <i class='bx bxs-phone'></i>
+                            <input type="number" placeholder="Mobilnummer" required>   
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn">Anmälan</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <h1>Tucaryd Simhall</h1>
+            <hr>
+            <h2 id="footer-link">Kontakta oss</h2>
+            <p>Adress: Sportgatan 1, 133 70 Tucaryd</p>
+            <p>Mail: <a href="mailto:tucaryd.simhall@gmail.com">tucaryd.simhall@gmail.com</a></p>
+            <p>Telefon: <a href="tel:+4733378901">073 33 78 901</a></p>
+            <p>Hitta hit:
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5973.424852542475!2d14.986884110081533!3d58.03990342984897!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a27dfc0000001%3A0x54667d8dbeff3ab2!2sTUC%20Sweden%20AB!5e0!3m2!1ssv!2sse!4v1698319877230!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <img class="logo-footer" src="bilder/Logo.png" alt="logo">
+        </footer>
+
+    </main>
+    
+</body>
